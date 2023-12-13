@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+
+    &__logo{
+        margin-top: 34px;
+        margin-left: 169px;
+    }
+
+    &__list{
+        display: flex;
+        gap: 32px;
+        margin-left: 58px;
+        margin-bottom: 35px;
+    }
+
+    &__item{
+        margin-top: 35px;
+    }
+
+    &__item--link{
+        color: #939CAA;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    &__item--link:active{
+        color: red;
+    }
+
+    &__button{
+        width: 180px;
+        height: 53px;
+        flex-shrink: 0;
+        background-color: #FCB72B;
+        margin-top: 20px;
+        border: none;
+        margin-left: 550px;
+    }
+
+    &__button--link{
+        color: #FFF;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    
+}

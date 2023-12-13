@@ -1,0 +1,40 @@
+.sidibar{
+    &__list{
+        margin-top: 160px;
+        margin-left: 169px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    &__item--head{
+        width: 445px;
+        color: #495567;
+        font-family: Space Mono;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 116.667% */
+        letter-spacing: -1.071px;
+        margin-top: 40px;
+    }
+
+    &__item--text{
+        width: 350px;
+        color: #939CAA;
+        font-family: Lexend Deca;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: 27px;
+    }
+
+    &__reght--img{
+        border-radius: 100%;
+    }
+
+    &__reght--img{
+        margin-left: -50px;
+    }
+
+}

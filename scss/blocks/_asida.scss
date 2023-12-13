@@ -1,0 +1,65 @@
+.asida{
+    margin-top: 266px;
+    &__list{
+        margin-left: 169px;
+        gap: 270px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns:auto auto auto auto;
+        margin-bottom: 150px;
+    }
+
+    &__reght--head{
+        width: 445px;
+        color: #495567;
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px; 
+        letter-spacing: -2.143px;
+    }
+
+    &__reght--text{
+        width: 370px;
+        color: #939CAA;
+        font-family: Lexend Deca;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; 
+        margin-top: 24px;
+    }
+
+    &__button{
+        width: 180px;
+        height: 53px;
+        flex-shrink: 0;
+        background: #FCB72B;
+        margin-top: 54px;
+        border:none;
+    }
+
+    &__button--link{
+        color: #FFF;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; 
+    }
+
+    &__left--img{
+        border-radius: 100%;
+    }
+
+    & svg{
+        margin-left: -155px;
+        margin-top: -55px;
+    }
+
+    & .asida__svg{
+        margin-left: 10px;
+    }
+}

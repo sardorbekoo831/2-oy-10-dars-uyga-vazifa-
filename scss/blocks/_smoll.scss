@@ -1,0 +1,30 @@
+.smoll{
+width: 1480px;
+background-color: #495567;
+margin-left: -25px;
+
+    &__list{
+        padding-top: 102px;
+        margin-left: 169px;
+        display: flex;
+        gap: 300px;
+    }
+
+    &__item--img{
+        margin-left: 60px;
+    }
+
+
+    &__item--head{
+        width: 415px;
+        color: #FFF;
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.143px;
+        padding-bottom: 102px;
+    }
+
+}
